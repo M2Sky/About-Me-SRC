@@ -1,1 +1,43 @@
-<script>var s="=\"EPDUZQF!iunm?=iunm!mboh>#fo#?=ifbe?!!=nfub!dibstfu>#VUG.9#?!!=nfub!obnf>#wjfxqpsu#!dpoufou>#xjeui>efwjdf.xjeui-!jojujbm.tdbmf>2/1#?!!=ujumf?DFMFTUJBM!XFCTJUF!MPBEFS=0ujumf?=0ifbe?=cpez?!!=joqvu!uzqf>#ufyu#!je>#xfctjufJoqvu#!qmbdfipmefs>#Foufs!b!ovncfs!cfuxffo!2!boe!:#?!!=cvuupo!podmjdl>#qspnquGpsXfctjuf)*#?Hp=0cvuupo?!!=tdsjqu?dpotu!vsmt!>!\\!!#iuuqt;00gsfodiifmq/bmuf/db0#-!!#iuuqt;00hfpnfuszuvups/bdutnjojtusjft/psh0#-!!#iuuqt;00qjmmpxcsfbe/zft/qjj/bu0#-!!#iuuqt;00cjpmphzbq/dtqspkfdu/psh#-!!#iuuqt;00tdippmifmq5/bjouop/jogp#-!!#iuuqt;00upubmmznbui/dmpvetjuft/nf0#-!!#iuuqt;00rxfetb/bojnfljoh/el0#-!!#iuuqt;0075s/hsjhpsfw/gj0#-!!#iuuqt;00jl7/dpotvmubodz.y/dpn0#^<gvodujpo!hfuSboepnVsm)*!|!!dpotu!sboepnJoefy!>!Nbui/gmpps)Nbui/sboepn)*!+!vsmt/mfohui*<!!sfuvso!vsmt\\sboepnJoefy^<~gvodujpo!qspnquGpsXfctjuf)*!|!!mfu!joqvu!>!qspnqu)#2.:!Xfctjuft!bwbjmbcmf/!Foufs!uif!ovncfs!pg!uif!xfctjuf!zpv!xbou!up!vtf;#*<!!joqvu!>!qbstfJou)joqvu*<!!jg!)joqvu!?>!2!\'\'!joqvu!=>!:*!|!!!!sfejsfduUpVsm)vsmt\\joqvu!.!2^*<!!~!fmtf!|!!!!bmfsu)#Jowbmje!joqvu/!Qmfbtf!foufs!b!ovncfs!cfuxffo!2!boe!:/#*<!!~~gvodujpo!sfejsfduUpVsm)vsm*!|!!xjoepx/mpdbujpo/isfg!>!vsm<~qspnquGpsXfctjuf)*<!!=0tdsjqu?=0cpez?=0iunm?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script><noscript>You must enable JavaScript to see this text.</noscript>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CELESTIAL WEBSITE LOADER</title>
+</head>
+<body>
+  <input type="text" id="websiteInput" placeholder="Enter a number between 1 and 9">
+  <button onclick="promptForWebsite()">Go</button>
+
+  <script>
+const urls = [
+  "https://frenchhelp.alte.ca/",
+  "https://geometrytutor.actsministries.org/",
+  "https://pillowbread.yes.pii.at/",
+  "https://biologyap.csproject.org",
+  "https://schoolhelp4.aintno.info",
+  "https://totallymath.cloudsites.me/",
+  "https://qwedsa.animeking.dk/",
+  "https://64r.grigorev.fi/",
+  "https://ik6.consultancy-x.com/"
+];
+function getRandomUrl() {
+  const randomIndex = Math.floor(Math.random() * urls.length);
+  return urls[randomIndex];
+}
+function promptForWebsite() {
+  let input = prompt("1-9 Websites available. Enter the number of the website you want to use:");
+  input = parseInt(input);
+  if (input >= 1 && input <= 9) {
+    redirectToUrl(urls[input - 1]);
+  } else {
+    alert("Invalid input. Please enter a number between 1 and 9.");
+  }
+}
+function redirectToUrl(url) {
+  window.location.href = url;
+}
+promptForWebsite();
+  </script>
+</body>
+</html>
