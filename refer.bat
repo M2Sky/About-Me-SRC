@@ -1,0 +1,6 @@
+@echo off
+echo Running build.bat...
+call "%~dp0build.bat"
+echo Running startup.bat...
+call "%~dp0startup.bat"
+cmd /k
