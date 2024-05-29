@@ -1,7 +1,6 @@
 @echo off
 setlocal
 
-:: Enable command echoing for troubleshooting
 echo on
 
 echo Running build.bat...
